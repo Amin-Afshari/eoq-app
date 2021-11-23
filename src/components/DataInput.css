@@ -1,0 +1,39 @@
+.data-input-input {
+  margin: auto;
+  width: 160px;
+}
+
+.data-input {
+  margin: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 30px;
+  width: 85%;
+  padding: 10px;
+}
+
+.data-text {
+  text-align: right;
+}
+
+.data-title {
+  width: 200px;
+  margin: auto;
+}
+
+.data-description {
+  width: 200px;
+}
+
+.data-symbol {
+  margin: auto;
+  width: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .data-input-input {
+    margin: auto;
+    width: 100px;
+  }
+}

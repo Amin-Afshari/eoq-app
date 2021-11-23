@@ -1,0 +1,41 @@
+.results-value {
+  position: relative;
+  bottom: 10px;
+  background-color: cornsilk;
+  padding: 10px;
+  justify-content: center;
+  color: rgb(4, 184, 13);
+  margin: auto;
+  width: 160px;
+}
+.results-value h2 {
+  position: relative;
+}
+
+.results {
+  margin: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  height: 30px;
+  width: 85%;
+  padding: 10px;
+}
+
+.results-text {
+  text-align: right;
+}
+
+.results-title {
+  width: 220px;
+  margin: auto;
+}
+
+.results-description {
+  width: 220px;
+}
+
+.results-symbol {
+  margin: auto;
+  width: 20px;
+}

@@ -1,0 +1,9 @@
+.data-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: bisque;
+}

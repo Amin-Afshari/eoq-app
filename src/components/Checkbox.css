@@ -1,0 +1,12 @@
+.checkbox {
+  margin: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 30px;
+  width: 85%;
+  padding: 10px;
+}
+
+.checkbox-input {
+  margin-left: 20px;
+}
