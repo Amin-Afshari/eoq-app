@@ -1,12 +1,22 @@
 .checkbox {
-  margin: 20px;
+  margin: 20px auto;
   display: flex;
   flex-direction: row-reverse;
-  height: 30px;
+  justify-content: center;
+
   width: 85%;
-  padding: 10px;
 }
 
 .checkbox-input {
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .checkbox {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .checkbox-input {
+    margin: auto;
+  }
 }

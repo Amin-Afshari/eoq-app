@@ -1,39 +1,45 @@
-.data-input-input {
-  margin: auto;
-  width: 160px;
-}
-
 .data-input {
-  margin: 20px;
+  margin: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  height: 30px;
-  width: 85%;
-  padding: 10px;
+  justify-content: center;
 }
 
 .data-text {
+  width: 200px;
+  height: auto;
   text-align: right;
 }
 
-.data-title {
-  width: 200px;
+.data-title > h3 {
   margin: auto;
 }
 
-.data-description {
-  width: 200px;
+.data-text > p {
+  margin: auto;
 }
 
-.data-symbol {
-  margin: auto;
+.data-symbol > h3 {
   width: 20px;
+  margin: 2px 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .data-input-input {
+.data-input__input {
+  margin: 2px 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .data-input {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .data-text {
     margin: auto;
-    width: 100px;
+    text-align: center;
+  }
+
+  .data-symbol > h3 {
+    margin: 10px auto;
   }
 }
